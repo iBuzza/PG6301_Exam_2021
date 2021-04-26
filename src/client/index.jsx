@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import { HomeButton } from "./HomeButton";
+import { UserRegister } from "./UserRegister";
 
 function Application() {
 	return (
@@ -12,7 +13,7 @@ function Application() {
 					<h1>Chatroom</h1>
 				</Route>
 				<Route path={"/register"}>
-					<h1>Register a new user</h1>
+					<UserRegister />
 				</Route>
 				<Route path={"/userlist"}>
 					<h1>List of users</h1>
