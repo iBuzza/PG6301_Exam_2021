@@ -1,0 +1,20 @@
+{
+  "name": "pgr6301_exam_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iBuzza/PGR6301_Exam_2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iBuzza/PGR6301_Exam_2021/issues"
+  },
+  "homepage": "https://github.com/iBuzza/PGR6301_Exam_2021#readme"
+}
