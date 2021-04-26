@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/iBuzza/PGR6301_Exam_2021/issues"
   },
-  "homepage": "https://github.com/iBuzza/PGR6301_Exam_2021#readme"
+  "homepage": "https://github.com/iBuzza/PGR6301_Exam_2021#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7",
+    "parcel": "*"
+  }
 }
