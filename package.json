@@ -2,8 +2,8 @@
   "name": "pgr6301_exam_2021",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel src/client/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
