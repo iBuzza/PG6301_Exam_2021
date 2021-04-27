@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
+import { ChatPage } from "./ChatPage";
 import { HomeButton } from "./HomeButton";
 import { UserListPage } from "./UserListPage";
 import { UserRegister } from "./UserRegisterPage";
+import './styles/chatPageStyles.css';
 
 function Application() {
 	return (
@@ -11,7 +13,7 @@ function Application() {
 			<HomeButton />
 			<Switch>
 				<Route path={"/chat"}>
-					<h1>Chatroom</h1>
+					<ChatPage />
 				</Route>
 				<Route path={"/register"}>
 					<UserRegister />
@@ -20,7 +22,7 @@ function Application() {
 					<UserListPage />
 				</Route>
 				<Route exact path={"/"}>
-					<h1>Chat Application</h1>
+					<h1>PG6301 Exam</h1>
 					<ul>
 						<li>
 							<Link to={"/chat"}>Enter Chatroom</Link>

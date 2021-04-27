@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+}
+
+header {
+border: 2px solid white;
+}
+
+main {
+  border: 2px solid white;
+  overflow-y: auto;
+  color: lime;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+  border: 2px solid white;
+}
+
+footer form {
+  display: flex;
+  align-items: stretch;
+}
+
+footer form input {
+  flex: 1;
+}
