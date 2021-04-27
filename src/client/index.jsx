@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import { HomeButton } from "./HomeButton";
-import { UserRegister } from "./UserRegister";
+import { UserListPage } from "./UserListPage";
+import { UserRegister } from "./UserRegisterPage";
 
 function Application() {
 	return (
@@ -16,7 +17,7 @@ function Application() {
 					<UserRegister />
 				</Route>
 				<Route path={"/userlist"}>
-					<h1>List of users</h1>
+					<UserListPage />
 				</Route>
 				<Route exact path={"/"}>
 					<h1>Chat Application</h1>
