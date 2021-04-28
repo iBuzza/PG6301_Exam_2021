@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home button test home button 1`] = `
+<nav>
+  <button>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+  </button>
+</nav>
+`;
+
+exports[`home button test home button 2`] = `"<nav><button><a href=\\"/\\">Home</a></button></nav>"`;
+
+exports[`loading view show loading view 1`] = `
+<nav>
+  <button>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+  </button>
+</nav>
+`;
+
+exports[`loading view show loading view on dom 1`] = `"<nav><button><a href=\\"/\\">Home</a></button></nav>"`;

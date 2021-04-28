@@ -1,5 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`chat function display chat function 1`] = `
+Array [
+  <header>
+    <h1>
+      Chat Page
+    </h1>
+  </header>,
+  <main>
+    <div
+      id="chatLog"
+    />
+  </main>,
+  <footer>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoFocus={true}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button>
+        Submit
+      </button>
+    </form>
+  </footer>,
+]
+`;
+
+exports[`chat function show chat on dom 1`] = `"<header><h1>Chat Page</h1></header><main><div id=\\"chatLog\\"></div></main><footer><form><input type=\\"text\\" value=\\"\\"><button>Submit</button></form></footer>"`;
+
 exports[`loading view show loading view 1`] = `
 Array [
   <header>

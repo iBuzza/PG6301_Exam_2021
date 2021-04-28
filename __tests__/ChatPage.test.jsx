@@ -5,13 +5,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import  { act} from "react-dom/test-utils"
 
-describe("loading view", () => {
-    it("show loading view", () => {
+describe("chat function", () => {
+    it("display chat function", () => {
         const view = TestRenderer.create(<ChatPage />);
         expect(view.toJSON()).toMatchSnapshot();
     });
     
-    it("show loading view on dom", () => {
+    it("show chat on dom", () => {
         const container = document.createElement("div");
         document.body.appendChild(container);
         act(() => {
