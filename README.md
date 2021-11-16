@@ -18,6 +18,7 @@ register new users to the application.
 - API calls
 - Register new users
 - Working connection between two clients with WebSockets
+
  **Not implemented:
 - List users
 - Decent test coverage
